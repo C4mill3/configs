@@ -276,7 +276,7 @@ mode     = aggressive
 enabled  = true
 port     = 22022
 logpath  = /var/log/auth.log
-maxretry = 1
+maxretry = 2
 bantime  = 3600
 findtime = 600
 
