@@ -1,0 +1,26 @@
+alias cls="clear"
+alias ealias="nano ~/.bash_aliases; source ~/.bashrc"
+alias h="history"
+alias ll="ls -la"
+alias py="python3"
+
+alias pycreateenv="python3 -m venv .venv"
+alias pyactivate="source .venv/bin/activate"
+alias pyrequirements="pip install -r requirements.txt"
+alias pyfreeze="pip freeze > requirements.txt"
+
+
+alias dcdown="sudo docker compose down"
+alias dcup="sudo docker compose up -d"
+alias dcupb="sudo docker compose up --build"
+alias dcpull="sudo docker compose pull"
+
+alias dnet="sudo docker network"
+alias dlogs="sudo docker logs -f"
+alias dps="sudo docker ps"
+alias dstop="sudo docker stop"
+alias dstart="sudo docker start"
+alias dpause="sudo docker pause"
+alias dunpause="sudo docker unpause"
+alias dimages="sudo docker images"
+alias drmi="sudo docker rmi"
