@@ -16,6 +16,8 @@ alias dcupb="sudo docker compose up --build"
 alias dcpull="sudo docker compose pull"
 
 alias dnet="sudo docker network"
+alias drun="sudo docker run"
+alias dexec="sudo docker exec"
 alias dlogs="sudo docker logs -f"
 alias dps="sudo docker ps"
 alias dstop="sudo docker stop"
