@@ -274,7 +274,7 @@ action = %(action_)s
 [sshd]
 mode     = aggressive
 enabled  = true
-port     = 22022
+port     = 22
 logpath  = /var/log/auth.log
 maxretry = 2
 bantime  = 3600

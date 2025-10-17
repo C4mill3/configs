@@ -24,7 +24,7 @@ AllowStreamLocalForwarding no
 GatewayPorts no
 PermitTunnel no
 # Toggle to allow using ssh as a socks proxy
-AllowTcpForwarding yes
+AllowTcpForwarding no
 
 # don't allow login if the account has an empty password
 PermitEmptyPasswords no
@@ -48,7 +48,7 @@ AllowGroups ssh_user
 ClientAliveCountMax 0
 ClientAliveInterval 300
 
-Port 22022
+Port 22
 ListenAddress 0.0.0.0
 
 LoginGraceTime 30
